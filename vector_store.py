@@ -47,6 +47,3 @@ def upload_to_local_db(json_file, business_label):
         )
         print(f"Done: {i + len(batch)} / {len(chunks)}")
 
-# Run it
-upload_to_local_db("my_business_clean_chunks.json", "Self")
-# upload_to_local_db("competitor_chunks.json", "Comp1")
